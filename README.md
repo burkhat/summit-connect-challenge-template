@@ -11,10 +11,12 @@ Content:
 
 ## Usage
 
-First of all: fork this repository! You need to make changes to it to work!
+**First of all: fork this repository! You need to make changes to it to work!**
 
 Once done: add 2 parameters into the `template.yaml`, `name` and `title`. You want to add them to `metadata`, next to where `description` is present.
-`name` should be a unique identifier and `title` is how it's going to be shown in Developer Hub
+`name` should be a unique identifier (a string without whitespaces, like: `userxy-summit-devhub-challenge`) and `title` is how it's going to be shown in Developer Hub.
+
+**Recommendation:** add your user ID along in `name` and `title` so it's easier to find later!
 
 Then: to make use of this template and therefore be able to deploy the application via Developer Hub, you need to add this template first. To do so:
 
