@@ -2,3 +2,5 @@ app:
   name: ${{values.componentId}}
   namespace: ${{values.namespace}}
   env: ${{values.env}}
+  defaultBranch: prod
+defaultBranch: prod
