@@ -21,9 +21,9 @@ spec:
           title: GitLab Group
           type: string
           description: Your GitLab group
-          default: prod
+          default: development
           enum:
-            - prod
+            - development
         description:
           title: Description
           type: string
