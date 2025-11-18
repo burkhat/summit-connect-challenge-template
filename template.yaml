@@ -21,7 +21,7 @@ spec:
           title: GitLab Group
           type: string
           description: Your GitLab group
-          default: user12
+          default: development
           enum:
             - development
         description:
@@ -38,7 +38,7 @@ spec:
           title: Cluster Id
           type: string
           description: Id of the cluster (check your URL starting at apps.)
-          default: apps.cluster-fzrsh.fzrsh.sandbox568.opentlc.com
+          default: apps.cluster-vnsph.vnsph.sandbox2012.opentlc.com
         namespace: 
           title: Namespace
           type: string
