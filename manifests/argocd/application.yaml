@@ -12,7 +12,7 @@ spec:
   source:
     repoURL: ${{values.sourceRepository}}
     path: ./helm/summit-connect-challenge
-    targetRevision: ${{values.defaultBranch}}
+    targetRevision: prod
     # adding those helm values here allows the helm
     # chart to be somewhere different and it doesn't
     # have to be deployed in each repo with backstage
