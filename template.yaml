@@ -2,6 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   description: Deploy an example application via self-service over Developer Hub
+  name: user12-summit-devhub-challenge
+  title: user12-summit-devhub-challenge
   tags:
     - summit-connect
     - challenge
