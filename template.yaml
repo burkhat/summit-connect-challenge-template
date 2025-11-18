@@ -58,6 +58,7 @@ spec:
           defaultBranch: main
           clusterId: ${{parameters.clusterId}}
           namespace: ${{parameters.namespace}}
+          defaultBranch: prod
           user: ${{user.entity.metadata.name}}
           gitlabGroup: ${{parameters.gitlabGroup}}
         targetPath: ./tenant-gitops
@@ -72,7 +73,7 @@ spec:
         title: GitOps resources for ${{parameters.namespace}}-summit-connect-challenge
         description: GitOps resources for ${{parameters.namespace}}-summit-connect-challenge
         sourcePath: ./tenant-gitops
-        defaultBranch: main
+        defaultBranch: prod
         protectDefaultBranch: false
         repoVisibility: public
 
