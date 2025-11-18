@@ -7,4 +7,4 @@ metadata:
     app.kubernetes.io/part-of: {{ .Values.app.name }}
 data:
   config: |-
-    ENV={{ .Values.app.env }}
+    ENV=prod
