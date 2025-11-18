@@ -83,6 +83,7 @@ spec:
         appName: ${{parameters.namespace}}-summit-connect-challenge-bootstrap
         argoInstance: main
         namespace: janus-argocd 
+        defaultBranch: prod
         repoUrl: https://gitlab-gitlab.${{parameters.clusterId}}/${{parameters.gitlabGroup}}/${{parameters.namespace}}-summit-connect-challenge.git
         path: 'argocd/'
     
